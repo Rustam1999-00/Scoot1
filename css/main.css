@@ -517,15 +517,15 @@ template {
 }
 
 .home {
-  background-image: url("/images/home-bg.jpg"), url("/images/home-bg2.png"), url("/images/home-o.png");
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: 100%, 100%, contain;
-  background-position: 50%, 50%, 50%;
+  background-image: url("/images/home-elips.png"), url("/images/home-befor.svg"), url("/images/home-after.svg"), url("/images/home-top-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 581px), calc(50% - 600px), calc(50% + 200px), 50%;
+  background-position-y: calc(50% + 150px), calc(50% + 60px);
 }
 
 .home__inner {
+  padding: 156px 0;
   margin-bottom: 160px;
-  padding: 153px 0;
 }
 
 .home__content {
@@ -568,11 +568,16 @@ template {
   text-decoration: none;
 }
 
+.home__link:hover {
+  border: 1px solid #FCB72B;
+  background-color: #FFFFFF;
+  color: #FCB72B;
+}
+
 .pick {
   background-image: url("/images/pick-bgg.svg");
   background-repeat: no-repeat;
-  background-size: 1074px 5px;
-  background-position-x: calc(50% - 300px);
+  background-position-x: calc(50% - 250px);
   background-position-y: 40px;
 }
 

@@ -56,14 +56,33 @@
   position: relative;
   border-radius: 50%;
 }
-// .about-mobility-item__img::after {
-//   display: block;
-//   position: absolute;
-//   top:-500px;
-//   width: 320px;
-//   height: 140px;
-//   content: "";
-//   background-image: url("../../images/about-mobility-strelka.png");
-//   background-repeat: no-repeat;
-//   background-position: calc(50% + 300px) 0;
-// }
+
+.about-mobility-item__pic{
+  position: relative;
+}
+about-mobility-item__pic2{
+position: relative;
+}
+.about-mobility-item__pic::before {
+  position: absolute;
+  top:0;
+  left: -165px;
+  width:100% ;
+  max-width: 360px;
+  height: 145px;
+  content: "";
+  background-image: url("../../../images/about-mobility-strelka.png");
+  background-repeat: no-repeat;
+}
+.about-mobility-item__pic2::before {
+  position: absolute;
+  top:270px;
+  right: -160px;
+  width:100% ;
+  max-width: 735px;
+  height: 145px;
+  content: "";
+  background-image: url("../../../about-images/strelka2.svg");
+  background-repeat: no-repeat;
+  
+}

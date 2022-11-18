@@ -1,0 +1,67 @@
+.stiy__inner{
+
+}
+.stiy__list{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.stiy__item{
+    margin: 0;
+    margin-bottom: 160px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.use__content{
+width: 100%;
+max-width: 445px;
+}
+.use__title{
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+    
+    letter-spacing: -2.14286px;
+    
+    color: #495567;
+}
+.use__text{
+    margin: 0;
+    margin-bottom:40px;
+    padding: 0;
+    font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+
+
+color: #939CAA;
+
+}
+.sity__img{
+border-radius: 50%;
+}
+.use__link{
+   
+    padding: 14px 39px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FCB72B;
+    border: 1px solid transparent;
+    text-decoration: none; 
+}
+.use__link:hover{
+    border: 1px solid #FCB72B ;  
+    background-color: #FFFFFF;
+    color:#FCB72B ;
+}

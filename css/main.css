@@ -438,6 +438,38 @@ template {
   border-radius: 50%;
 }
 
+.about-mobility-item__pic {
+  position: relative;
+}
+
+about-mobility-item__pic2 {
+  position: relative;
+}
+
+.about-mobility-item__pic::before {
+  position: absolute;
+  top: 0;
+  left: -165px;
+  width: 100%;
+  max-width: 360px;
+  height: 145px;
+  content: "";
+  background-image: url("../../../images/about-mobility-strelka.png");
+  background-repeat: no-repeat;
+}
+
+.about-mobility-item__pic2::before {
+  position: absolute;
+  top: 270px;
+  right: -160px;
+  width: 100%;
+  max-width: 735px;
+  height: 145px;
+  content: "";
+  background-image: url("../../../about-images/strelka2.svg");
+  background-repeat: no-repeat;
+}
+
 .about-values {
   padding: 0 0 120px;
 }
@@ -526,6 +558,37 @@ template {
 
 .about-values-item:nth-child(3) > .about-values-item__img::after {
   content: "03";
+}
+
+.about-faq {
+  padding-bottom: 160px;
+}
+
+.about-faq__title {
+  margin-bottom: 64px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.accordion-body2 {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #495567;
+}
+
+.accordion-item2 {
+  background: #F2F5F9;
+}
+
+.accordion2 {
+  margin-top: 64px;
 }
 
 .site-header {

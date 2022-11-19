@@ -54,3 +54,38 @@ text-decoration: none;
     background-color: #FFFFFF;
     color:#FCB72B ;
 }
+
+.top__menu{
+    display: none;
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .top__link{
+        font-size: 12px;
+line-height: 20px;
+    }
+    .top__button{
+        font-size: 12px;
+        line-height: 20px;
+    }
+ }
+
+ @media only screen and (max-width:576px) {
+    .top__inner{
+        text-align: center;
+    }
+ .top__nav{
+    display: none;
+ }
+ .top__button{
+    display: none;
+ }
+ .top__menu{
+    display: block;
+ }
+ .top__ligo{
+margin: 0 auto;
+ }
+ }

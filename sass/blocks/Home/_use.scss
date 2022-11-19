@@ -1,3 +1,11 @@
+.stiy{
+    background-image: url("/images/sate-bg1.svg"),url("/images/sate-bg2.svg"),url("/images/sate-bg3.svg"),url("/images/sate-bg4.png"),url("/images/sate-bg5.png");
+    background-repeat: no-repeat;
+    background-position-x: calc(50% + 350px),calc(50% - 540px),calc(50% + 540px),calc(50% + 670px),calc(50% + 670px);
+    background-position-Y: calc(50% - 440px),calc(50% - 140px),calc(50% + 550px),calc(50% - 600px),calc(50% + 600px);
+ 
+}
+
 .stiy__inner{
 
 }
@@ -47,6 +55,7 @@ color: #939CAA;
 }
 .sity__img{
 border-radius: 50%;
+z-index: -1;
 }
 .use__link{
    

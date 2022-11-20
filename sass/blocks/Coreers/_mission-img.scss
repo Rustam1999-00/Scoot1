@@ -51,6 +51,11 @@ color: #939CAA;
     color: #FFFFFF;
     background: #FCB72B;
 }
+.mission__link:hover{
+    border: 1px solid #FCB72B ;  
+    background-color: #FFFFFF;
+    color:#FCB72B ;
+}
 .mission__img{
 border-radius: 50%;
 z-index: -1;

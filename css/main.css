@@ -1153,7 +1153,75 @@ about-mobility-item__pic2 {
   background: #FCB72B;
 }
 
+.mission__link:hover {
+  border: 1px solid #FCB72B;
+  background-color: #FFFFFF;
+  color: #FCB72B;
+}
+
 .mission__img {
   border-radius: 50%;
   z-index: -1;
+}
+
+.manager__inner {
+  margin-top: 120px;
+}
+
+.manager__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.manager__item {
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  padding: 32px 64px 35px 40px;
+  background: #F2F5F9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.manager__title {
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.manager__text {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  color: #495567;
+}
+
+.manager__link {
+  padding: 14px 67px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #FCB72B;
+}
+
+.manager__link:hover {
+  border: 1px solid #FCB72B;
+  background-color: #FFFFFF;
+  color: #FCB72B;
 }/*# sourceMappingURL=main.css.map */

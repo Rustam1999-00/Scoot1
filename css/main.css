@@ -1088,4 +1088,72 @@ about-mobility-item__pic2 {
     /* or 167% */
     text-align: center;
   }
+}
+.care {
+  background-image: url("/images/Care-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.care__inner {
+  padding: 100px 0;
+}
+
+.mission {
+  background-image: url("/images/sate-bg1.svg"), url("/images/sate-bg4.png");
+  background-repeat: no-repeat;
+  background-position-x: calc(50% + 340px), calc(50% + 660px);
+  background-position-y: calc(50% + 150px), calc(50% + 0px);
+}
+
+.mission__inner {
+  margin-top: 117px;
+  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mission__content {
+  width: 100%;
+  max-width: 445px;
+}
+
+.mission__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.mission__taxt {
+  margin: 24px 0 40px;
+  padding: 0;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #939CAA;
+}
+
+.mission__link {
+  padding: 14px 48px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #FCB72B;
+}
+
+.mission__img {
+  border-radius: 50%;
+  z-index: -1;
 }/*# sourceMappingURL=main.css.map */

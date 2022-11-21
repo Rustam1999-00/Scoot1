@@ -1,47 +1,52 @@
-.mission{
-    background-image: url("/images/sate-bg1.svg"),url("/images/sate-bg4.png");
+.mission {
+    background-image: url("/images/sate-bg1.svg"), url("/images/sate-bg4.png");
     background-repeat: no-repeat;
-    background-position-x:calc(50% + 340px),calc(50% + 660px);
-    background-position-y:calc(50% + 150px),calc(50% + 0px);
+    background-position-x: calc(50% + 340px), calc(50% + 660px);
+    background-position-y: calc(50% + 150px), calc(50% + 0px);
 }
-.mission__inner{
+
+.mission__inner {
     margin-top: 117px;
     margin-bottom: 120px;
-display: flex;
-align-items: center;
-justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.mission__content{
-width: 100%;
-max-width: 445px;
+
+.mission__content {
+    width: 100%;
+    max-width: 445px;
 }
-.mission__title{
-margin: 0;
-padding: 0;
-font-weight: 700;
-font-size: 48px;
-line-height: 48px;
-/* or 100% */
 
-letter-spacing: -2.14286px;
+.mission__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
 
-color: #495567;
+    letter-spacing: -2.14286px;
+
+    color: #495567;
 
 }
-.mission__taxt{
+
+.mission__taxt {
     margin: 24px 0 40px;
     padding: 0;
     font-family: 'Lexend Deca';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
-/* or 167% */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
 
 
-color: #939CAA;
+    color: #939CAA;
 }
-.mission__link{
+
+.mission__link {
     padding: 14px 48px;
     font-weight: 700;
     font-size: 15px;
@@ -51,64 +56,74 @@ color: #939CAA;
     color: #FFFFFF;
     background: #FCB72B;
 }
-.mission__link:hover{
-    border: 1px solid #FCB72B ;  
+
+.mission__link:hover {
+    border: 1px solid #FCB72B;
     background-color: #FFFFFF;
-    color:#FCB72B ;
+    color: #FCB72B;
 }
-.mission__img{
-border-radius: 50%;
-z-index: -1;
+
+.mission__img {
+    border-radius: 50%;
+    z-index: -1;
 }
+
 @media only screen and (max-width:768px) {
-    .mission{
-        background-image: url("/images/sate-bg1.svg"),url("/images/sate-bg4.png");
+    .mission {
+        background-image: url("/images/sate-bg1.svg"), url("/images/sate-bg4.png");
         background-repeat: no-repeat;
-        background-position-x:calc(50% + 0px),calc(50% + 320px);
-        background-position-y:calc(50% + 40px),calc(50% - 100px);
+        background-position-x: calc(50% + 0px), calc(50% + 320px);
+        background-position-y: calc(50% + 40px), calc(50% - 100px);
     }
-    .mission__inner{
-      flex-direction: column-reverse;
+
+    .mission__inner {
+        flex-direction: column-reverse;
     }
-    .mission__img{
+
+    .mission__img {
         margin-top: 144px;
         margin-bottom: 64px;
     }
-    
+
 }
 
 @media only screen and (max-width:568px) {
-    .mission{
-        background-image: url("/images/sate-bg1.svg"),url("/images/sate-bg4.png");
+    .mission {
+        background-image: url("/images/sate-bg1.svg"), url("/images/sate-bg4.png");
         background-repeat: no-repeat;
-        background-position-x:calc(50% + 200px),calc(50% + 320px);
-        background-position-y:calc(50% - 20px),calc(50% - 100px);
+        background-position-x: calc(50% + 200px), calc(50% + 320px);
+        background-position-y: calc(50% - 20px), calc(50% - 100px);
     }
-    .mission__inner{
+
+    .mission__inner {
         text-align: center;
     }
-.mission__img{
-    width: 311px;
-    height: 311px;
-}
-.mission__content{
-    max-width: 311px;
 
-}
-.mission__title{
-    font-size: 32px;
-line-height: 32px;
-/* or 100% */
+    .mission__img {
+        width: 311px;
+        height: 311px;
+    }
 
-text-align: center;
-}
-.mission__taxt{
-    font-size: 15px;
-line-height: 25px;
-/* or 167% */
+    .mission__content {
+        max-width: 311px;
 
-text-align: center;
-}
+    }
+
+    .mission__title {
+        font-size: 32px;
+        line-height: 32px;
+        /* or 100% */
+
+        text-align: center;
+    }
+
+    .mission__taxt {
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+
+        text-align: center;
+    }
 
 
 

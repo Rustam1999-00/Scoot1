@@ -1,0 +1,33 @@
+.location-hero {
+  padding: 72px 0;
+  background-image: url("../../../about-images/location-hero-bg-2.jpg"), url("../../../about-images/location-hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 620px), calc(50%);
+}
+
+.location-hero__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width:768px){
+  .location-hero{
+    background-position: calc(50% + 281px) , calc(50%);
+  }
+
+  .location-hero__title{
+    margin-left: 60px;
+  }
+}
+@media only screen and (max-width:576px){
+  .location-hero{
+    background-image: url("../../../about-images/location-hero-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: calc(50%);
+  }
+}

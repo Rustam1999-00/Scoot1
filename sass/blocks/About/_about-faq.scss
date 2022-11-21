@@ -28,3 +28,17 @@
 .accordion2 {
   margin-top: 64px;
 }
+
+@media only screen and (max-width:768px){
+  .about-faq-row-title{
+    text-align: center;
+  }
+  .about-faq-row-title2{
+    margin-top: 64px;
+    text-align: center;
+  }
+
+  .accordion2{
+    margin: 0 auto;
+  }
+}

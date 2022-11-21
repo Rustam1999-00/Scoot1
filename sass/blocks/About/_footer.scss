@@ -27,6 +27,15 @@
   line-height: 25px;
   color: #939CAA;
   text-decoration: none;
+
+  &:hover {
+    color: #FCB72B;
+  }
+
+  &:active {
+    opacity: 0.6;
+    color: #FCB72B;
+  }
 }
 
 .social-medial {
@@ -38,6 +47,37 @@
   list-style-type: none;
 }
 
+.social-media__item{
+  &:hover{
+    opacity: 0.8;
+  }
+
+  &:active{
+    opacity: 0.6;
+  }
+}
+
+
 .social-media__item+.social-media__item {
   margin-left: 24px;
+}
+
+@media only screen and (max-width:576px) {
+  .site-footer__inner {
+    flex-direction: column;
+  }
+
+  .site-footer__link-list {
+    margin: 41px 0 85px;
+    flex-direction: column;
+  }
+
+  .site-footer__link+.site-footer__link {
+    margin-top: 16px;
+  }
+
+  .social-medial {
+    margin: 0;
+  }
+
 }

@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../scsssssss/css"
+		},
+		{
+			"path": "../../../../scsssssss/sass"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Scoot1",
+		"liveServer.settings.port": 5502
+	}
+}

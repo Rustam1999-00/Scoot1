@@ -1545,8 +1545,9 @@ about-mobility-item__pic2 {
 }
 
 .sity__img {
+  position: relative;
   border-radius: 50%;
-  z-index: -1;
+  z-index: -100;
 }
 
 .use__link {
@@ -1736,6 +1737,7 @@ about-mobility-item__pic2 {
 }
 
 .mission__img {
+  position: relative;
   border-radius: 50%;
   z-index: -1;
 }

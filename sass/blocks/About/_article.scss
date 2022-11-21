@@ -1,0 +1,42 @@
+.site-article {
+
+  padding: 102px 0;
+  background-image: url("../../../about-images/Mask.jpg");
+  background-repeat: no-repeat;
+  background-position: calc(50%);
+}
+
+.site-article__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.site-article__content {
+  width: 100%;
+  max-width: 415px;
+}
+
+.site-article__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+}
+
+.site-article__img {
+  width: 159px;
+  height: 56px;
+  border-radius: 5px;
+}
+
+.app-store {
+  margin-right: 18px;
+}
+
+@media only screen and (max-width:768px) {
+  
+}

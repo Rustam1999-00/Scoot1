@@ -1,20 +1,20 @@
 .home {
-  
-    background-image: url("/images/home-elips.png"),url("/images/home-befor.svg"),url("/images/home-after.svg"),url("/images/home-top-bg.jpg"),;
+
+    background-image: url("/images/home-elips.png"), url("/images/home-befor.svg"), url("/images/home-after.svg"), url("/images/home-top-bg.jpg"), ;
     background-repeat: no-repeat;
 
-    background-position: calc(50% + 628px),calc(50% - 618px),calc(50% + 200px),calc(50%);
-    background-position-y:calc(50% + 150px),calc(50% + 55px),calc(50% + 120px),calc(50%);
+    background-position: calc(50% + 628px), calc(50% - 618px), calc(50% + 200px), calc(50%);
+    background-position-y: calc(50% + 150px), calc(50% + 55px), calc(50% + 120px), calc(50%);
 }
 
 .home__inner {
-   padding: 156px 0;
+    padding: 156px 0;
     margin-bottom: 160px;
- 
+
 }
 
 .home__content {
- 
+
     width: 100%;
     max-width: 500px;
 }
@@ -36,8 +36,8 @@
 
 // .home__content::after {
 //     content: "";
-    
-  
+
+
 //     background-image: url("/images/home-after.svg");
 //     background-repeat: no-repeat;
 //     position: absolute;
@@ -98,40 +98,44 @@
 
 @media only screen and (max-width:768px) {
     .home {
-  
-        background-image: url("/images/home-elips.png"),url("/images/sate-bg2.svg"),url("/images/home-tablet-bg.jpg");
+
+        background-image: url("/images/home-elips.png"), url("/images/sate-bg2.svg"), url("/images/home-tablet-bg.jpg");
         background-repeat: no-repeat;
-    
-        background-position: calc(50% + 278px),calc(50% - 218px),calc(50%);
-        background-position-y:calc(50% + 250px),calc(50% + 210px),calc(50%);
+
+        background-position: calc(50% + 278px), calc(50% - 218px), calc(50%);
+        background-position-y: calc(50% + 250px), calc(50% + 210px), calc(50%);
     }
+
     .home__content {
- 
+
         width: 100%;
         max-width: 500px;
         margin: 0 auto;
-     
-    }
-    .home__title{
-        font-size: 56px;
-line-height: 56px;
-/* or 100% */
 
-text-align: center;
     }
-    .home__text{
+
+    .home__title {
+        font-size: 56px;
+        line-height: 56px;
+        /* or 100% */
+
+        text-align: center;
+    }
+
+    .home__text {
         padding: 0;
         padding: 24px 0 46px;
         font-size: 15px;
-line-height: 25px;
-/* or 167% */
+        line-height: 25px;
+        /* or 167% */
 
-text-align: center;
+        text-align: center;
     }
-    .home__inner{
+
+    .home__inner {
         text-align: center;
         margin: 0;
-     padding-bottom:180px;
+        padding-bottom: 180px;
         z-index: -1;
     }
 }
@@ -141,36 +145,40 @@ text-align: center;
 @media only screen and (max-width:576px) {
 
     .home {
-  
-        background-image: url("/images/home-elips.png"),url("/images/sate-bg2.svg"),url("/images/home-mobil-bg.jpg");
+
+        background-image: url("/images/home-elips.png"), url("/images/sate-bg2.svg"), url("/images/home-mobil-bg.jpg");
         background-repeat: no-repeat;
         // background-size:100% 0;
-    
-        background-position: calc(50% + 378px),calc(50% - 278px),calc(50%);
-        background-position-y:calc(50% + 250px),calc(50% + 210px),calc(50%);
+
+        background-position: calc(50% + 378px), calc(50% - 278px), calc(50%);
+        background-position-y: calc(50% + 250px), calc(50% + 210px), calc(50%);
     }
+
     .home__content {
- 
-  
+
+
         max-width: 311px;
         margin: 0 auto;
-     
+
     }
-    .home__title{
+
+    .home__title {
         font-size: 40px;
-line-height: 40px;
-/* or 100% */
+        line-height: 40px;
+        /* or 100% */
 
-text-align: center;
-    } 
-    .home__text{
-        font-size: 15px;
-line-height: 25px;
-/* or 167% */
-
-text-align: center;
+        text-align: center;
     }
-    .home__link{
+
+    .home__text {
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+
+        text-align: center;
+    }
+
+    .home__link {
         margin-left: 0;
     }
 }

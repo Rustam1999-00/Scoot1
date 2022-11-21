@@ -58,3 +58,18 @@ background: #FCB72B;
     background-color: #FFFFFF;
     color:#FCB72B ;   
 }
+@media only screen and (max-width:568px){
+   .manager__item{
+    flex-direction: column;
+    padding: 32px 40px 35px 40px;
+   } 
+   .manager__title{
+    font-size: 18px;
+line-height: 24px;
+
+text-align: center;
+   }
+   .manager__content{
+    margin-bottom: 16px;
+   }
+}

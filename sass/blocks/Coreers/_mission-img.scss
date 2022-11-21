@@ -60,3 +60,57 @@ color: #939CAA;
 border-radius: 50%;
 z-index: -1;
 }
+@media only screen and (max-width:768px) {
+    .mission{
+        background-image: url("/images/sate-bg1.svg"),url("/images/sate-bg4.png");
+        background-repeat: no-repeat;
+        background-position-x:calc(50% + 0px),calc(50% + 320px);
+        background-position-y:calc(50% + 40px),calc(50% - 100px);
+    }
+    .mission__inner{
+      flex-direction: column-reverse;
+    }
+    .mission__img{
+        margin-top: 144px;
+        margin-bottom: 64px;
+    }
+    
+}
+
+@media only screen and (max-width:568px) {
+    .mission{
+        background-image: url("/images/sate-bg1.svg"),url("/images/sate-bg4.png");
+        background-repeat: no-repeat;
+        background-position-x:calc(50% + 200px),calc(50% + 320px);
+        background-position-y:calc(50% - 20px),calc(50% - 100px);
+    }
+    .mission__inner{
+        text-align: center;
+    }
+.mission__img{
+    width: 311px;
+    height: 311px;
+}
+.mission__content{
+    max-width: 311px;
+
+}
+.mission__title{
+    font-size: 32px;
+line-height: 32px;
+/* or 100% */
+
+text-align: center;
+}
+.mission__taxt{
+    font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+}
+
+
+
+
+}

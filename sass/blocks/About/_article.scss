@@ -64,4 +64,16 @@
     font-size: 32px;
     line-height: 32px;
   }
+  .site-article__img{
+    width: 130px;
+    height: 40px;
+
+  }
+}
+@media only screen and (max-width:329px) {
+  .site-article__img{
+    width: 120px;
+    height: 35px;
+
+  }
 }
